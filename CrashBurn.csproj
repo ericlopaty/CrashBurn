@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base64.cs" />
     <Compile Include="CodeStats.cs" />
     <Compile Include="Processes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendWebRequest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -9,7 +9,7 @@ namespace CrashBurn
 {
     class Processes
     {
-        static void ShowProcesses(string[] args)
+        static void DoProcesses(string[] args)
         {
             string upt="",ppt="",tpt="";
             Console.Title="Process";

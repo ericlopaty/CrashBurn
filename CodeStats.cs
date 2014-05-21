@@ -9,7 +9,7 @@ namespace CrashBurn
 
     class CodeStats
     {
-        static void ShowCodeStats(string[] args)
+        static void DoCodeStats(string[] args)
         {
             if (Directory.Exists(args[0]))
             {
