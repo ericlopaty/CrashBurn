@@ -10,6 +10,8 @@ namespace CrashBurn
     {
         static void Main(string[] args)
         {
+            Console.Write("Press ENTER to exit.");
+            Console.ReadLine();
         }
     }
 }
